@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8"/><meta content="width=device-width,initial-scale=1" name="viewport"/><meta content="#100a0b" name="theme-color"/>
+<meta content="Veja 14 fotografias reais do PvM do Mysterious Age Shard: caçadas, bosses, batalhas em grupo e conquistas dos aventureiros." name="description"/>
+<meta content="Campo de Glória — Álbum PvM Mysterious Age" property="og:title"/><meta content="assets/img/pvm/pvm-07-thumb.webp" property="og:image"/>
+<link href="assets/img/favicon.png" rel="icon" type="image/png"/>
+<link href="assets/styles.css" rel="stylesheet"/><link href="assets/legendary.css" rel="stylesheet"/><link href="assets/ascension.css" rel="stylesheet"/>
+<title>Campo de Glória • Álbum PvM | Mysterious Age Shard</title>
+<style>
+html{scroll-behavior:smooth}
+body.album-pvm-page{background:#090608;color:#f8eee7}
+.album-intro{position:relative;overflow:hidden;isolation:isolate;border-bottom:1px solid rgba(255,116,89,.24);background:radial-gradient(ellipse at 70% 27%,rgba(205,44,34,.18),transparent 48%),linear-gradient(130deg,#19090c,#080609 65%);padding:clamp(100px,10vw,156px) 0 78px}
+.album-intro:after{content:"";position:absolute;inset:0;z-index:-1;pointer-events:none;background:linear-gradient(90deg,rgba(8,5,7,.92),rgba(8,5,7,.15)),url('assets/img/citadel.webp') center/cover;opacity:.22}
+.album-wrap{width:min(1320px,calc(100% - 48px));margin-inline:auto}
+.album-intro-grid{display:grid;grid-template-columns:minmax(0,1.08fr) minmax(360px,.92fr);gap:clamp(28px,5vw,78px);align-items:center}
+.album-brow{color:#f4a17b;font:800 11px/1.4 system-ui,sans-serif;letter-spacing:.3em;text-transform:uppercase;margin:0 0 19px}
+.album-brow:before{content:'✦';margin-right:12px}
+.album-h1{font:600 clamp(50px,6.1vw,94px)/.95 Georgia,serif;letter-spacing:-.055em;text-wrap:balance;margin:0 0 24px;color:#fff3e9;text-transform:uppercase}
+.album-h1 em{display:block;font-style:normal;background:linear-gradient(120deg,#ffc1a0,#fa6758,#ac1e25);background-clip:text;-webkit-background-clip:text;color:transparent}
+.album-lead{font:400 clamp(15px,1.35vw,18px)/1.9 system-ui,sans-serif;max-width:610px;color:#decac0;margin:0 0 25px}
+.album-hero-actions{display:flex;gap:14px;flex-wrap:wrap;align-items:center}
+.album-primary,.album-secondary{font:800 11px/1.3 system-ui,sans-serif;letter-spacing:.15em;text-transform:uppercase;text-decoration:none!important;display:inline-flex;align-items:center;justify-content:center;padding:15px 20px;min-height:50px;gap:11px}
+.album-primary{border:1px solid #ee8b72;background:linear-gradient(135deg,#b9302a,#5e101a);color:white!important;box-shadow:0 9px 36px #b92a2428}
+.album-secondary{border:1px solid #b7746166;background:#11090c;color:#f5cab6!important}
+.album-primary:hover,.album-secondary:hover{filter:brightness(1.14);transform:translateY(-2px)}
+.album-proof{display:flex;gap:14px;align-items:center;border-top:1px solid #a34d3c44;margin-top:30px;padding-top:20px;color:#dfb09d;line-height:1.6;font:700 11px/1.7 system-ui,sans-serif;letter-spacing:.11em;text-transform:uppercase}
+.album-proof b{font:600 36px/1 Georgia,serif;color:#f7c18d}
+.album-cover{position:relative;display:grid;grid-template-columns:1fr .77fr;grid-template-rows:repeat(2,1fr);gap:10px;height:460px;transform:rotate(1deg);border:1px solid #97402f99;background:#190a0d;padding:9px;box-shadow:0 25px 85px #0009}
+.album-cover:before{content:'';position:absolute;inset:-14px;z-index:-1;border:1px solid rgba(240,132,103,.12)}
+.album-cover img{width:100%;height:100%;object-fit:cover;display:block;min-width:0;min-height:0;filter:saturate(.95) contrast(1.13)}
+.album-cover img:first-child{grid-row:span 2}
+.album-cover-badge{position:absolute;left:20px;bottom:23px;background:#12080de8;border:1px solid #e2a07888;padding:12px 16px;color:#ffcfaa;font:800 10px/1.3 system-ui,sans-serif;letter-spacing:.15em;text-transform:uppercase;box-shadow:0 10px 30px #0007}
+.album-gallery{padding:72px 0 95px}
+.album-gallery-head{display:flex;align-items:end;justify-content:space-between;gap:28px;margin-bottom:22px}
+.album-eyebrow{color:#f08c79;font:800 10px/1.5 system-ui,sans-serif;letter-spacing:.26em;text-transform:uppercase;margin:0 0 10px}
+.album-section-title{font:600 clamp(35px,4vw,58px)/1.08 Georgia,serif;color:#fff1e8;letter-spacing:-.042em;margin:0 0 12px}
+.album-section-title em{font-style:normal;color:#f1725f}
+.album-section-sub{color:#c7b1a7;font:400 13px/1.85 system-ui,sans-serif;max-width:660px;margin:0}
+.album-count{font:700 11px/1.4 system-ui,sans-serif;letter-spacing:.18em;text-transform:uppercase;color:#f2b194;white-space:nowrap}
+.album-filters{display:flex;flex-wrap:wrap;gap:8px;margin:26px 0 32px}
+.album-filter{padding:10px 17px;border:1px solid #9b544541;color:#d3b6a9;background:#170c0e;cursor:pointer;font:800 10px/1.3 system-ui,sans-serif;letter-spacing:.12em;text-transform:uppercase;transition:.2s}
+.album-filter[aria-pressed="true"],.album-filter:hover{border-color:#fa9177;color:#fff;background:#65211e}
+.album-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:19px}
+.album-tile{display:flex;flex-direction:column;padding:0;background:#130a0d;border:1px solid rgba(231,126,105,.25);text-align:left;cursor:pointer;min-width:0;color:inherit;box-shadow:0 15px 50px #0005;transition:transform .3s,border-color .3s,box-shadow .3s;overflow:hidden}
+.album-tile:hover,.album-tile:focus-visible{transform:translateY(-5px);border-color:#e58670;box-shadow:0 20px 55px #0009,0 0 35px #b931291c}
+.album-tile[hidden]{display:none!important}
+.album-tile-picture{position:relative;display:block;aspect-ratio:1.5;overflow:hidden;background:#0a0809}
+.album-tile-picture img{width:100%;height:100%;object-fit:cover;display:block;transition:transform .6s,filter .5s;filter:saturate(.87) contrast(1.1)}
+.album-tile:hover .album-tile-picture img,.album-tile:focus-visible .album-tile-picture img{transform:scale(1.055);filter:saturate(1.04) contrast(1.12)}
+.album-tile-picture:after{content:'';position:absolute;inset:0;background:linear-gradient(180deg,transparent 25%,rgba(8,3,4,.52) 100%);pointer-events:none}
+.album-tile-action{position:absolute;right:13px;bottom:12px;z-index:2;padding:9px 11px;background:#1a080bc9;border:1px solid #dd8b7366;color:#fff4ea;font:800 9px/1.4 system-ui,sans-serif;letter-spacing:.12em;text-transform:uppercase;opacity:0;transform:translateY(7px);transition:.22s}
+.album-tile:hover .album-tile-action,.album-tile:focus-visible .album-tile-action{opacity:1;transform:none}
+.album-tile-caption{min-height:102px;display:grid;grid-template-columns:30px minmax(0,1fr) 25px;gap:12px;align-items:center;padding:17px}
+.album-tile-no{font:600 27px/.9 Georgia,serif;color:#bc584c}
+.album-tile-cat{display:block;color:#ca8976;font:800 9px/1.5 system-ui,sans-serif;letter-spacing:.2em;text-transform:uppercase;margin-bottom:5px}
+.album-tile-caption strong{font:600 clamp(17px,1.55vw,23px)/1.2 Georgia,serif;color:#f9e9df;display:block}
+.album-tile-arrow{width:25px;height:25px;display:grid;place-items:center;border:1px solid rgba(252,139,115,.3);border-radius:50%;color:#ff9b81;font-size:17px}
+.album-quote{margin:60px 0 0;padding:28px 16px;border-top:1px solid #9c403b55;border-bottom:1px solid #9c403b55;text-align:center;color:#e7cabe;font:500 clamp(19px,2.3vw,30px)/1.45 Georgia,serif;background:linear-gradient(90deg,transparent,#551a1722,transparent)}
+.album-quote em{font-style:normal;color:#ff9179}
+.album-lightbox{width:min(1260px,98vw);max-width:98vw;max-height:98vh;border:1px solid #a65a48;background:#0b0709;box-shadow:0 30px 120px #000;color:#fff;padding:0;overflow:hidden}
+.album-lightbox::backdrop{background:#030203ed;backdrop-filter:blur(12px)}
+.album-lightbox-header{display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:center;gap:10px;padding:14px 18px;border-bottom:1px solid #8c4b3c55}
+.album-lightbox-meta{color:#e9b59c;font:800 10px/1.4 system-ui,sans-serif;letter-spacing:.17em;text-transform:uppercase}
+.album-lightbox-header button,.album-nav{background:#200f12;border:1px solid #a45a4b7c;color:#fff1e8;cursor:pointer}
+.album-lightbox-header button{height:40px;width:40px;font-size:24px;line-height:1}
+.album-lightbox-stage{position:relative;display:grid;place-items:center;background:radial-gradient(ellipse at 50% 50%,#24201f,#070507);min-height:280px;overflow:hidden}
+.album-lightbox-stage img{display:block;max-width:100%;max-height:calc(96vh - 176px);object-fit:contain;width:auto;height:auto;min-height:0;box-shadow:0 15px 55px #0006}
+.album-nav{position:absolute;top:50%;transform:translateY(-50%);width:48px;height:62px;display:grid;place-items:center;z-index:2;font-size:30px;background:rgba(19,8,10,.8)}
+.album-nav.prev{left:10px}.album-nav.next{right:10px}
+.album-lightbox-footer{padding:15px 20px 18px;border-top:1px solid #8c4b3c55}
+.album-lightbox-footer h3{font:600 clamp(18px,2.2vw,27px)/1.15 Georgia,serif;color:#fff0e7;margin:0 0 6px}
+.album-lightbox-footer p{color:#bdaba4;font:400 12px/1.7 system-ui,sans-serif;margin:0}
+.album-keytip{display:block;margin-top:7px;color:#ad8e81;font:700 10px/1.4 system-ui,sans-serif;letter-spacing:.06em}
+@media(max-width:1050px){.album-intro-grid{grid-template-columns:1fr}.album-cover{width:min(100%,700px);height:min(60vw,400px);transform:none}.album-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:650px){.album-wrap{width:calc(100% - 32px)}.album-intro{padding-top:100px;padding-bottom:40px}.album-h1{font-size:clamp(41px,12vw,70px)}.album-grid{grid-template-columns:1fr}.album-cover{height:265px}.album-gallery{padding-top:48px}.album-gallery-head{display:block}.album-count{display:block;margin-top:16px}.album-tile-picture{aspect-ratio:1.58}.album-tile-action{opacity:1;transform:none}.album-nav{width:34px;height:46px;font-size:24px}.album-nav.prev{left:3px}.album-nav.next{right:3px}.album-lightbox-stage img{max-height:calc(94vh - 210px)}.album-lightbox-header{padding:8px 10px}.album-lightbox-footer{padding:11px 13px}}
+@media(prefers-reduced-motion:reduce){*,*:before,*:after{animation-duration:.01ms!important;transition-duration:.01ms!important}}
+</style>
+<style id="pvm-simple-gallery-overrides">
+/* Album PvM — versão simplificada: fotos sem legendas individuais. */
+.album-gallery{padding-top:66px}
+.album-gallery-head{margin-bottom:26px}
+.album-grid{gap:16px}
+.album-tile{display:block;padding:7px;background:#10090b;border:1px solid rgba(235,136,106,.24);border-radius:2px;line-height:0}
+.album-tile-picture{aspect-ratio:1.5;display:flex;align-items:center;justify-content:center;background:#090709}
+.album-tile-picture img{width:100%;height:100%;object-fit:contain;filter:saturate(.98) contrast(1.05)}
+.album-tile-picture:after{background:linear-gradient(180deg,transparent 70%,rgba(8,3,4,.40) 100%)}
+.album-tile-action{font-size:10px;bottom:10px;right:10px;padding:9px 10px}
+.album-lightbox-footer{display:flex;align-items:center;justify-content:center;padding:10px 18px}
+.album-keytip{margin:0;color:#c9a899;text-align:center}
+@media(max-width:650px){.album-gallery{padding-top:48px}.album-tile-picture{aspect-ratio:1.5}.album-tile-action{opacity:1;transform:none}}
+</style></head>
+<body class="edition-ascension album-pvm-page">
+<div aria-hidden="true" class="reading-progress" id="reading-progress"></div>
+<svg style="display:none" xmlns="http://www.w3.org/2000/svg">
+<symbol id="arrow" viewbox="0 0 24 24"><path d="M4 12h16m-7-7 7 7-7 7"></path></symbol>
+<symbol id="download" viewbox="0 0 24 24"><path d="M12 3v12m-5-5 5 5 5-5M3 17v4h18v-4"></path></symbol>
+<symbol id="swords" viewbox="0 0 24 24"><path d="m3 3 7 7m4 4 7 7M11 13l2-2m-9 10 5-5M4 4l3 0 2 3m11-4-7 7m-2 2-8 8m11-11 2 2m-12 9-2 2"></path></symbol>
+<symbol id="shield" viewbox="0 0 24 24"><path d="M12 2 4 5v6c0 5.8 4.1 9.4 8 11 3.9-1.6 8-5.2 8-11V5zM12 7v10M8 12h8"></path></symbol>
+<symbol id="castle" viewbox="0 0 24 24"><path d="M3 22V7h4V3h4v4h2V3h4v4h4v15H3Zm4 0v-7h10v7M3 11h18M12 15v7"></path></symbol>
+<symbol id="flame" viewbox="0 0 24 24"><path d="M12 22c4.6 0 7-3.5 7-7 0-2.9-1.9-5.4-4-7-.1 3.2-2.4 4.5-3 4-2.9-2-1.4-5.9-1-9C6.5 6.1 5 10.3 5 14.5 5 19 8 22 12 22Zm0 0c-2.1 0-3-1.4-3-3.2 0-1.4 1.4-2.4 2.4-3.4.2 1.9 2.6 2.8 2.6 4.5 0 1.1-.8 2.1-2 2.1Z"></path></symbol>
+<symbol id="users" viewbox="0 0 24 24"><circle cx="9" cy="8" r="4"></circle><path d="M2 21v-2a7 7 0 0 1 14 0v2zm14-16a4 4 0 0 1 0 7m2 2a6 6 0 0 1 4 6v1"></path></symbol>
+<symbol id="book" viewbox="0 0 24 24"><path d="M12 21c-3-2.5-6.6-3-10-2V4c3.5-1 7-.5 10 2 3-2.5 6.5-3 10-2v15c-3.4-1-7-.5-10 2Zm0-15v15"></path></symbol>
+<symbol id="compass" viewbox="0 0 24 24"><circle cx="12" cy="12" r="10"></circle><path d="m15.5 8.5-2 5-5 2 2-5 5-2Z"></path></symbol>
+<symbol id="crown" viewbox="0 0 24 24"><path d="m2 8 5 4 5-8 5 8 5-4-3 12H5L2 8Zm4 8h12"></path></symbol>
+<symbol id="menu" viewbox="0 0 24 24"><path d="M4 6h16M4 12h16M4 18h16"></path></symbol>
+<symbol id="close" viewbox="0 0 24 24"><path d="M5 5 19 19M19 5 5 19"></path></symbol>
+<symbol id="chevron" viewbox="0 0 24 24"><path d="m9 18 6-6-6-6"></path></symbol>
+<symbol id="spark" viewbox="0 0 24 24"><path d="m12 2 2.5 7.5L22 12l-7.5 2.5L12 22l-2.5-7.5L2 12l7.5-2.5L12 2Z"></path></symbol>
+<symbol id="discord" viewbox="0 0 24 24"><path d="M7 5c3.5-1.5 6.5-1.5 10 0l2.5 2c1.7 3.3 2.3 6.7 2 10.5-2 1.7-4 2.6-6 3l-.8-1.8M7 5 4.5 7C2.8 10.3 2.2 13.7 2.5 17.5c2 1.7 4 2.6 6 3l.8-1.8M8 17a16 16 0 0 0 8 0M8 12h.01M16 12h.01"></path></symbol>
+<symbol id="search" viewbox="0 0 24 24"><circle cx="10.8" cy="10.8" r="7.8"></circle><path d="m16.5 16.5 5 5"></path></symbol>
+<symbol id="scroll" viewbox="0 0 24 24"><path d="M6 3h13v15a3 3 0 0 1-3 3H5a3 3 0 0 1-3-3c0-1.5 1-3 3-3h11M6 3a3 3 0 0 0-3 3v9M6 7h9M6 11h7"></path></symbol>
+<symbol id="settings" viewbox="0 0 24 24"><path d="m12 2 2.2 2.9 3.6-.3.9 3.5 3.3 1.5-1.2 3.5 1.2 3.4-3.3 1.4-.9 3.5-3.6-.2L12 24l-2.2-2.8-3.6.2-.9-3.5L2 16.5l1.2-3.4L2 9.6l3.3-1.5.9-3.5 3.6.3L12 2Z"></path><circle cx="12" cy="13" r="3"></circle></symbol>
+<symbol id="star" viewbox="0 0 24 24"><path d="m12 2 2.8 6.5 7.2.6-5.5 4.8 1.7 7.1-6.2-3.7-6.2 3.7 1.7-7.1L2 9.1l7.2-.6z"></path></symbol>
+<symbol id="heart" viewbox="0 0 24 24"><path d="M12 21S2 15 2 8a5 5 0 0 1 10-1 5 5 0 0 1 10 1c0 7-10 13-10 13Z"></path></symbol>
+</svg>
+<header class="site-header"><div class="header-inner"><a aria-label="Mysterious Age Shard — início" class="brand" href="index.html"><img alt="Brasão do Mysterious Age Shard" src="assets/img/logo-small.webp"/><span class="brand-type">MYSTERIOUS AGE<span>S H A R D</span></span></a>
+<nav aria-label="Navegação principal" class="nav" id="main-nav"><a data-page="index" href="index.html">Início</a><a data-page="mundo" href="mundo.html">O Mundo</a><a aria-current="page" class="active" data-page="sistemas" href="sistemas.html">Sistemas</a><a data-page="ranking" href="ranking.html">Ranking</a><a data-page="bestiario" href="bestiario.html">Bestiário</a><a data-page="guia" href="guia.html">Guia</a><a data-page="comunidade" href="comunidade.html">Comunidade</a></nav>
+<div class="header-actions"><a class="btn" href="jogar.html"><svg aria-hidden="true" class="" style="fill:none;stroke:currentColor;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round" viewbox="0 0 24 24"><use href="#swords"></use></svg><span>Jogar agora</span></a><button aria-controls="main-nav" aria-expanded="false" aria-label="Abrir menu" class="icon-button menu-trigger" id="menu-trigger" type="button"><svg aria-hidden="true" class="" style="fill:none;stroke:currentColor;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round" viewbox="0 0 24 24"><use href="#menu"></use></svg></button></div></div></header>
+<main id="conteudo">
+<section aria-labelledby="album-title" class="album-intro">
+<div class="album-wrap album-intro-grid">
+<div>
+<p class="album-brow">Mysterious Age · Registros da batalha</p>
+<h1 class="album-h1" id="album-title">Campo de <em>Glória.</em></h1>
+<p class="album-lead">O PvM do Mysterious Age é feito de encontros inesperados, monstros poderosos e batalhas que pedem coragem e companheirismo. Entre masmorras, grandes caçadas e confrontos memoráveis, cada aventura deixa uma história para contar. <strong>Aqui estão momentos reais vividos pelos jogadores do shard.</strong></p>
+<div class="album-hero-actions">
+<a class="album-primary" href="#album-fotos">EXPLORAR AS BATALHAS <span aria-hidden="true">↘</span></a>
+<a class="album-secondary" href="ranking.html">VER RANKING PvM <span aria-hidden="true">↗</span></a>
+</div>
+<div class="album-proof"><b>12</b><span>Momentos capturados dentro do jogo.<br/>Uma jornada que continua a cada batalha.</span></div>
+</div>
+<div aria-hidden="true" class="album-cover">
+<img alt="" src="assets/img/pvm/pvm-07-thumb.webp"/>
+<img alt="" src="assets/img/pvm/pvm-08-thumb.webp"/>
+<img alt="" src="assets/img/pvm/pvm-13-thumb.webp"/>
+<span class="album-cover-badge">⚔ PVM REAL · MYSTERIOUS AGE</span>
+</div>
+</div>
+</section>
+<section aria-labelledby="album-section-title" class="album-gallery" id="album-fotos">
+<div class="album-wrap">
+<div class="album-gallery-head">
+<div>
+<p class="album-eyebrow">✦ O álbum dos aventureiros</p>
+<h2 class="album-section-title" id="album-section-title">As batalhas <em>não param.</em></h2>
+<p class="album-section-sub">Cada imagem guarda a emoção das batalhas, a força dos aliados e a conquista depois do perigo. Clique em qualquer foto para ampliar e percorra o álbum.</p>
+</div>
+<span class="album-count" id="album-list-count">12 fotos do jogo</span>
+</div>
+<div class="album-grid" id="album-grid"><button aria-label="Ampliar foto 1 de 12 do PvM" class="album-tile" data-photo="0" type="button"><span class="album-tile-picture"><img alt="Gameplay PvM do Mysterious Age, registro 1" decoding="async" loading="lazy" src="assets/img/pvm/pvm-03-thumb.webp"/><span aria-hidden="true" class="album-tile-action">AMPLIAR  ↗</span></span></button><button aria-label="Ampliar foto 2 de 12 do PvM" class="album-tile" data-photo="1" type="button"><span class="album-tile-picture"><img alt="Gameplay PvM do Mysterious Age, registro 2" decoding="async" loading="lazy" src="assets/img/pvm/pvm-04-thumb.webp"/><span aria-hidden="true" class="album-tile-action">AMPLIAR  ↗</span></span></button><button aria-label="Ampliar foto 3 de 12 do PvM" class="album-tile" data-photo="2" type="button"><span class="album-tile-picture"><img alt="Gameplay PvM do Mysterious Age, registro 3" decoding="async" loading="lazy" src="assets/img/pvm/pvm-05-thumb.webp"/><span aria-hidden="true" class="album-tile-action">AMPLIAR  ↗</span></span></button><button aria-label="Ampliar foto 4 de 12 do PvM" class="album-tile" data-photo="3" type="button"><span class="album-tile-picture"><img alt="Gameplay PvM do Mysterious Age, registro 4" decoding="async" loading="lazy" src="assets/img/pvm/pvm-06-thumb.webp"/><span aria-hidden="true" class="album-tile-action">AMPLIAR  ↗</span></span></button><button aria-label="Ampliar foto 5 de 12 do PvM" class="album-tile" data-photo="4" type="button"><span class="album-tile-picture"><img alt="Gameplay PvM do Mysterious Age, registro 5" decoding="async" loading="lazy" src="assets/img/pvm/pvm-07-thumb.webp"/><span aria-hidden="true" class="album-tile-action">AMPLIAR  ↗</span></span></button><button aria-label="Ampliar foto 6 de 12 do PvM" class="album-tile" data-photo="5" type="button"><span class="album-tile-picture"><img alt="Gameplay PvM do Mysterious Age, registro 6" decoding="async" loading="lazy" src="assets/img/pvm/pvm-08-thumb.webp"/><span aria-hidden="true" class="album-tile-action">AMPLIAR  ↗</span></span></button><button aria-label="Ampliar foto 7 de 12 do PvM" class="album-tile" data-photo="6" type="button"><span class="album-tile-picture"><img alt="Gameplay PvM do Mysterious Age, registro 7" decoding="async" loading="lazy" src="assets/img/pvm/pvm-09-thumb.webp"/><span aria-hidden="true" class="album-tile-action">AMPLIAR  ↗</span></span></button><button aria-label="Ampliar foto 8 de 12 do PvM" class="album-tile" data-photo="7" type="button"><span class="album-tile-picture"><img alt="Gameplay PvM do Mysterious Age, registro 8" decoding="async" loading="lazy" src="assets/img/pvm/pvm-10-thumb.webp"/><span aria-hidden="true" class="album-tile-action">AMPLIAR  ↗</span></span></button><button aria-label="Ampliar foto 9 de 12 do PvM" class="album-tile" data-photo="8" type="button"><span class="album-tile-picture"><img alt="Gameplay PvM do Mysterious Age, registro 9" decoding="async" loading="lazy" src="assets/img/pvm/pvm-11-thumb.webp"/><span aria-hidden="true" class="album-tile-action">AMPLIAR  ↗</span></span></button><button aria-label="Ampliar foto 10 de 12 do PvM" class="album-tile" data-photo="9" type="button"><span class="album-tile-picture"><img alt="Gameplay PvM do Mysterious Age, registro 10" decoding="async" loading="lazy" src="assets/img/pvm/pvm-12-thumb.webp"/><span aria-hidden="true" class="album-tile-action">AMPLIAR  ↗</span></span></button><button aria-label="Ampliar foto 11 de 12 do PvM" class="album-tile" data-photo="10" type="button"><span class="album-tile-picture"><img alt="Gameplay PvM do Mysterious Age, registro 11" decoding="async" loading="lazy" src="assets/img/pvm/pvm-13-thumb.webp"/><span aria-hidden="true" class="album-tile-action">AMPLIAR  ↗</span></span></button><button aria-label="Ampliar foto 12 de 12 do PvM" class="album-tile" data-photo="11" type="button"><span class="album-tile-picture"><img alt="Gameplay PvM do Mysterious Age, registro 12" decoding="async" loading="lazy" src="assets/img/pvm/pvm-14-thumb.webp"/><span aria-hidden="true" class="album-tile-action">AMPLIAR  ↗</span></span></button></div>
+<div class="album-quote">“Alguns contam histórias de coragem. <em>Outros deixam a marca da batalha.</em>”</div>
+</div>
+</section>
+</main>
+<footer class="footer"><div class="container"><div class="footer-grid"><div class="footer-brand"><a href="index.html"><img alt="Mysterious Age Shard" decoding="async" loading="lazy" src="assets/img/logo-small.webp"/></a><p>Um mundo de aventuras, alianças e desafios. Sua próxima lenda começa aqui.</p></div><div class="footer-col"><h4>Explorar</h4><a href="index.html">Início</a><a href="mundo.html">O Mundo</a><a href="sistemas.html">Sistemas</a><a href="guia.html">Guia do aventureiro</a><a href="bestiario.html">Bestiário</a></div><div class="footer-col"><h4>Jornada</h4><a href="jogar.html">Começar a jogar</a><a href="comunidade.html">Comunidade</a><a data-link="launcher" href="#">Baixar launcher</a></div><div class="footer-col"><h4>Informações</h4><a href="regras.html">Regras</a><a data-link="discord" href="#">Discord</a><a data-link="support" href="#">Suporte</a><a data-link="instagram" href="#">Instagram</a></div></div></div><div class="footer-bottom"><div class="container"><span>© <span data-year="">2026</span> Mysterious Age Shard. Projeto de comunidade.</span><span class="footer-motto">Forjado por jogadores. Movido por histórias.</span></div></div></footer>
+<dialog aria-label="Foto ampliada do PvM" class="album-lightbox" id="album-lightbox">
+<div class="album-lightbox-header">
+<span class="album-lightbox-meta" id="album-current-count">Foto 1 de 12</span>
+<button aria-label="Fechar álbum" id="album-close" type="button">×</button>
+</div>
+<div class="album-lightbox-stage">
+<button aria-label="Foto anterior" class="album-nav prev" id="album-prev" type="button">‹</button>
+<img alt="Foto de gameplay PvM ampliada" id="album-full-image" src="assets/img/pvm/pvm-03.webp"/>
+<button aria-label="Próxima foto" class="album-nav next" id="album-next" type="button">›</button>
+</div>
+<div class="album-lightbox-footer"><span class="album-keytip">Use ← → ou deslize para mudar de foto. Pressione Esc para fechar.</span></div>
+</dialog>
+<script src="config.js"></script><script defer="" src="assets/site.js"></script><script defer="" src="assets/legendary.js"></script><script defer="" src="assets/ascension.js"></script>
+<script>
+(() => {
+  'use strict';
+  const images = Array.from({length:12},(_,i)=>`assets/img/pvm/pvm-${String(i+3).padStart(2,'0')}.webp`);
+  const tiles = Array.from(document.querySelectorAll('#album-grid [data-photo]'));
+  const dialog = document.getElementById('album-lightbox');
+  const photo = document.getElementById('album-full-image');
+  const counter = document.getElementById('album-current-count');
+  const close = document.getElementById('album-close');
+  let active = 0;
+  let previousFocus = null;
+
+  function show(index) {
+    active = (index + images.length) % images.length;
+    photo.src = images[active];
+    photo.alt = `Captura de gameplay PvM ${active + 1} de ${images.length}`;
+    counter.textContent = `Foto ${active + 1} de ${images.length}`;
+  }
+  function open(index) {
+    previousFocus = document.activeElement;
+    show(index);
+    if (!dialog.open) dialog.showModal();
+    document.body.style.overflow = 'hidden';
+    close.focus();
+  }
+  function move(n) { show(active + n); }
+
+  tiles.forEach(tile => tile.addEventListener('click',()=>open(Number(tile.dataset.photo))));
+  close.addEventListener('click',()=>dialog.close());
+  document.getElementById('album-prev').addEventListener('click',()=>move(-1));
+  document.getElementById('album-next').addEventListener('click',()=>move(1));
+  dialog.addEventListener('close',()=>{
+    document.body.style.overflow = '';
+    if (previousFocus && typeof previousFocus.focus === 'function') previousFocus.focus();
+  });
+  dialog.addEventListener('click',e=>{if(e.target===dialog)dialog.close();});
+  dialog.addEventListener('keydown',e=>{
+    if(e.key==='ArrowRight'){e.preventDefault();move(1);}
+    if(e.key==='ArrowLeft'){e.preventDefault();move(-1);}
+  });
+  let startX = null;
+  photo.addEventListener('touchstart',e=>{startX=e.changedTouches[0].clientX;},{passive:true});
+  photo.addEventListener('touchend',e=>{
+    if(startX===null)return;
+    const delta=e.changedTouches[0].clientX-startX;
+    if(Math.abs(delta)>55)move(delta<0?1:-1);
+    startX=null;
+  },{passive:true});
+})();
+</script>
+</body></html>

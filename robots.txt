@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://www.mysteriousageshard.com.br/sitemap.xml

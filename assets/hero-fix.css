@@ -1,0 +1,161 @@
+/*
+ * MYSTERIOUS AGE — ASCENSION v4.2
+ * Correção EXCLUSIVA do hero da página inicial.
+ * Substitui: assets/hero-fix.css da versão v4.1.
+ * O HTML já importa este arquivo; nenhuma outra edição é necessária.
+ */
+
+/* O conjunto de conteúdo pertence ao CENTRO DA TELA, não à coluna direita. */
+body.edition-ascension .hero-content {
+  width: 100%;
+  z-index: 9;
+}
+
+body.edition-ascension .hero-content > .container {
+  display: flex !important;
+  width: 100% !important;
+  max-width: none !important;
+  justify-content: center !important;
+  align-items: center !important;
+  margin: 0 auto !important;
+  padding-inline: clamp(18px, 3vw, 48px) !important;
+  grid-template-columns: none !important;
+}
+
+body.edition-ascension .hero-copy {
+  position: relative;
+  grid-column: auto !important;
+  flex: 0 1 720px;
+  width: min(100%, 720px) !important;
+  max-width: 720px !important;
+  min-width: 0;
+  margin-inline: auto !important;
+  padding: 0 !important;
+  left: auto !important;
+  right: auto !important;
+  transform: none !important;
+  text-align: center;
+}
+
+body.edition-ascension .hero-logo {
+  display: block;
+  margin-inline: auto !important;
+}
+
+body.edition-ascension .hero-title,
+body.edition-ascension .hero-lead,
+body.edition-ascension .hero-buttons,
+body.edition-ascension .hero-tagline {
+  margin-left: auto !important;
+  margin-right: auto !important;
+  text-align: center;
+}
+
+body.edition-ascension .hero-buttons {
+  justify-content: center !important;
+}
+
+body.edition-ascension .hero-scroll {
+  left: 50% !important;
+  right: auto !important;
+  bottom: 20px;
+  transform: translateX(-50%) !important;
+  text-align: center;
+  white-space: nowrap;
+  gap: 6px;
+}
+
+body.edition-ascension .hero-scroll .scroll-line { height: 24px; }
+body.edition-ascension .hero-side,
+body.edition-ascension .hero .embers-toggle { display: none !important; }
+
+@media (min-width: 981px) {
+  body.edition-ascension .hero {
+    box-sizing: border-box;
+    height: auto !important;
+    min-height: clamp(720px, calc(100svh - 78px), 900px);
+    padding: clamp(48px, 6vh, 78px) 0 92px;
+    display: flex;
+    align-items: center;
+  }
+
+  /* Retrato isolado à esquerda: dimensionado por ALTURA para não ser cortado. */
+  body.edition-ascension .hero-warrior {
+    position: absolute;
+    inset: auto auto 0 clamp(-32px, calc((100% - 1676px) / 2), 28px);
+    width: clamp(330px, 29vw, 510px);
+    height: min(93%, 790px);
+    background: url('./img/warrior-clean.webp') left bottom / contain no-repeat;
+    opacity: .96;
+    filter: drop-shadow(12px 8px 30px rgba(0, 0, 0, .66)) saturate(1.12);
+    -webkit-mask-image: linear-gradient(90deg,#000 0%,#000 60%,rgba(0,0,0,.85) 71%,transparent 100%), linear-gradient(0deg,transparent 0%,#000 7%,#000 100%);
+    mask-image: linear-gradient(90deg,#000 0%,#000 60%,rgba(0,0,0,.85) 71%,transparent 100%), linear-gradient(0deg,transparent 0%,#000 7%,#000 100%);
+    -webkit-mask-composite: source-in;
+    mask-composite: intersect;
+  }
+  body.edition-ascension .hero-warrior::before,
+  body.edition-ascension .hero-warrior::after { display: none !important; }
+
+  /* A cena mantém o lado esquerdo legível e o centro limpo. */
+  body.edition-ascension .hero-drape {
+    background: linear-gradient(90deg,rgba(0,0,0,.08) 0%,rgba(3,2,3,.30) 27%,rgba(5,2,4,.65) 45%,rgba(5,2,4,.68) 76%,rgba(4,2,4,.42) 100%);
+  }
+  body.edition-ascension .hero-gradient {
+    background: radial-gradient(ellipse 37% 48% at 51% 45%, rgba(62,10,16,.12), transparent 95%), linear-gradient(0deg,#080608 0%,rgba(8,5,6,.1) 35%,rgba(8,5,6,.12));
+  }
+  body.edition-ascension .hero-crest-ring { left: 50%; top: 46%; }
+
+  body.edition-ascension .hero-logo {
+    height: clamp(165px, 12.6vw, 204px);
+    margin-bottom: -8px !important;
+  }
+  body.edition-ascension .hero-pretitle { margin-top: 12px !important; }
+  body.edition-ascension .hero-title {
+    max-width: 720px;
+    font-size: clamp(39px, 3.7vw, 59px) !important;
+    line-height: 1.08 !important;
+  }
+  body.edition-ascension .hero-title .title-red {
+    font-size: clamp(40px, 3.95vw, 61px);
+  }
+  body.edition-ascension .hero-lead { margin-top: 20px !important; margin-bottom: 24px !important; }
+  body.edition-ascension .hero-tagline { margin-top: 20px !important; }
+}
+
+/* Em telas intermediárias, a espada não invade as letras. */
+@media (min-width: 981px) and (max-width: 1280px) {
+  body.edition-ascension .hero-warrior {
+    left: -60px;
+    width: clamp(310px, 31vw, 395px);
+    opacity: .65;
+    -webkit-mask-image: linear-gradient(90deg,#000 0%,rgba(0,0,0,.8) 55%,transparent 100%);
+    mask-image: linear-gradient(90deg,#000 0%,rgba(0,0,0,.8) 55%,transparent 100%);
+  }
+  body.edition-ascension .hero-title { font-size: clamp(36px, 4.6vw, 55px) !important; }
+  body.edition-ascension .hero-title .title-red { font-size: clamp(36px, 4.7vw, 56px); }
+  body.edition-ascension .hero-copy { width: min(100%, 690px) !important; }
+}
+
+/* Tablet/celular: uma coluna única e conteúdo realmente centralizado. */
+@media (max-width: 980px) {
+  body.edition-ascension .hero-content > .container { display: flex !important; }
+  body.edition-ascension .hero-copy { flex-basis: 690px; transform: none !important; }
+  body.edition-ascension .hero { padding-bottom: 116px; }
+  body.edition-ascension .hero-warrior { opacity: .22; }
+  body.edition-ascension .hero-crest-ring { left: 50%; }
+  body.edition-ascension .hero-scroll { bottom: 19px; }
+}
+
+@media (max-width: 680px) {
+  body.edition-ascension .hero { padding-top: 100px; padding-bottom: 108px; }
+  body.edition-ascension .hero-warrior { display: none !important; }
+  body.edition-ascension .hero-copy { flex-basis: 100%; }
+  body.edition-ascension .hero-title,
+  body.edition-ascension .hero-title .title-red { max-width: 100%; }
+  body.edition-ascension .hero-scroll { bottom: 13px; }
+  body.edition-ascension .hero-scroll .scroll-line { height: 17px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  body.edition-ascension .hero-warrior { animation: none !important; }
+}
