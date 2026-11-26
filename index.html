@@ -152,6 +152,57 @@ body.motion-off.edition-ascension .hero-title .title-red::after { animation: non
 .pvm-gallery-card .pvm-card-photo-mark{position:absolute;z-index:2;top:17px;left:16px;padding:8px 11px;background:rgba(12,7,9,.87);border:1px solid rgba(255,127,97,.55);color:#ffcfaa;letter-spacing:.16em;font:800 10px/1.2 system-ui,sans-serif;box-shadow:0 8px 28px #0007}
 .pvm-gallery-card .card-content a{font-weight:800;letter-spacing:.09em}
 .pvm-gallery-card .card-image:focus-visible{outline:3px solid #ffb085;outline-offset:-4px}
+</style><style id="ma-discord-novidades-style">
+/* Mysterious Age — mural do #anuncios; isolado nesta pagina. */
+.ma-news-section{position:relative;isolation:isolate;overflow:hidden;padding:clamp(55px,6vw,91px) 0 clamp(55px,6vw,95px);background:radial-gradient(ellipse at 16% 0%,rgba(125,22,27,.17),transparent 52%),linear-gradient(180deg,#100a0d 0%,#08070a 95%);border-bottom:1px solid rgba(161,57,49,.25)}
+.ma-news-section:before{content:"";position:absolute;top:0;left:0;right:0;height:1px;background:linear-gradient(90deg,transparent,rgba(241,102,75,.55),transparent)}
+.ma-news-intro{display:flex;align-items:end;justify-content:space-between;gap:25px;margin-bottom:29px}
+.ma-news-kicker{display:block;color:#e18e78;font:800 10px/1.6 system-ui,sans-serif;letter-spacing:.29em;text-transform:uppercase;margin-bottom:12px}
+.ma-news-section h2{font:600 clamp(28px,3.5vw,47px)/1.14 Georgia,serif;letter-spacing:-.035em;color:#fff0e7;margin:0}
+.ma-news-section h2 em{font-style:normal;color:#ee755f}
+.ma-news-description{max-width:640px;color:#b5a19a;font-size:14px;line-height:1.75;margin:12px 0 0}
+.ma-news-see-discord{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:45px;padding:11px 18px;flex:none;border:1px solid #a24e45;background:#241013;color:#f6ddd2!important;text-decoration:none!important;font:700 11px/1.4 system-ui,sans-serif;letter-spacing:.07em;transition:background .2s,border-color .2s,transform .2s}
+.ma-news-see-discord:hover{background:#482024;border-color:#f07961;transform:translateY(-2px)}
+.ma-news-frame{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(290px,.85fr);min-width:0;min-height:430px;border:1px solid #7c413bb3;background:#100d10;box-shadow:0 24px 68px #0007,0 0 0 6px #070608a8}
+.ma-news-feature{min-width:0;padding:clamp(22px,3vw,37px);position:relative;overflow:hidden;background:radial-gradient(circle at 100% 0%,rgba(181,52,47,.17),transparent 53%),linear-gradient(148deg,#241317,#120e12 80%);border-right:1px solid #643d38a3}
+.ma-news-feature:before{content:"";position:absolute;right:-68px;top:-70px;width:230px;height:230px;border:1px solid #bb756a22;border-radius:50%;box-shadow:0 0 0 26px #e76b4e08,0 0 0 55px #e76b4e05;pointer-events:none}
+.ma-news-feature>*{position:relative;z-index:1}
+.ma-news-feature-head{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;gap:10px;margin-bottom:26px}
+.ma-news-feature-label{color:#e79c83;font:800 10px system-ui,sans-serif;letter-spacing:.19em;text-transform:uppercase}
+.ma-news-feature-date{color:#c5aaa0;font:600 11px system-ui,sans-serif}
+.ma-news-feature h3{color:#fff0e5;font:600 clamp(23px,2.8vw,37px)/1.22 Georgia,serif;letter-spacing:-.03em;margin:0 0 17px;overflow-wrap:anywhere}
+.ma-news-feature-author{color:#e1a78f;font-size:12px;margin:0 0 20px}
+.ma-news-feature-article{max-height:325px;overflow:auto;scrollbar-color:#875148 #1c1115;padding-right:7px;color:#d3beb3;font:400 13px/1.83 system-ui,sans-serif;overflow-wrap:anywhere}
+.ma-news-feature-article p{color:inherit;font:inherit;line-height:inherit;max-width:none;margin:0 0 10px;white-space:pre-wrap}
+.ma-news-feature-article p.ma-news-line-heading{font-weight:750;color:#f4d7c7;font-size:14px}
+.ma-news-feature-article strong{color:#ffe8d7}
+.ma-news-feature-article p.ma-news-blank{height:7px;margin:0}
+.ma-news-feature-actions{display:flex;flex-wrap:wrap;gap:12px;align-items:center;margin-top:22px}
+.ma-news-expand{appearance:none;cursor:pointer;background:transparent;color:#f3ab92;border:1px solid #975a4a;padding:11px 16px;font:700 11px/1.4 system-ui,sans-serif;letter-spacing:.05em}
+.ma-news-expand:hover,.ma-news-expand:focus-visible{background:#3b1a1c;border-color:#e79074}
+.ma-news-feature-actions a{color:#e8b39d;text-decoration:underline;text-underline-offset:4px;font:600 12px system-ui,sans-serif}
+.ma-news-feature-actions a:hover{color:#fff5ee}
+.ma-news-index{min-width:0;display:flex;flex-direction:column;background:linear-gradient(150deg,#160f12,#0b0a0d)}
+.ma-news-index-head{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:22px 21px;border-bottom:1px solid #643c3866;color:#f1cfbf;font:800 11px/1.5 system-ui,sans-serif;letter-spacing:.16em;text-transform:uppercase}
+.ma-news-count{display:inline-block;color:#f1a58b;white-space:nowrap}
+.ma-news-list{flex:1;max-height:455px;overflow-y:auto;scrollbar-color:#a05544 #160c10;scrollbar-width:thin}
+.ma-news-entry{display:block;width:100%;padding:18px 20px;background:transparent;border:0;border-bottom:1px solid #6f3a343d;color:#d2b9ae;text-align:left;cursor:pointer;transition:background .2s,border-color .2s}
+.ma-news-entry:hover{background:#36181d}
+.ma-news-entry[aria-pressed="true"]{background:linear-gradient(90deg,#542225,#251216 88%);box-shadow:inset 3px 0 #f07960}
+.ma-news-entry:focus-visible{outline:2px solid #ffac8c;outline-offset:-3px}
+.ma-news-entry-top{display:flex;justify-content:space-between;gap:12px;align-items:center;color:#c59484;font:700 10px/1.4 system-ui,sans-serif;margin-bottom:7px}
+.ma-news-entry-number{color:#e88370;letter-spacing:.08em}
+.ma-news-entry-title{display:block;color:#f0dace;font:600 15px/1.45 Georgia,serif;margin:0 0 5px;overflow-wrap:anywhere}
+.ma-news-entry[aria-pressed="true"] .ma-news-entry-title{color:#fff4ea}
+.ma-news-entry-preview{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;font:400 11px/1.55 system-ui,sans-serif;color:#a7958e;overflow-wrap:anywhere}
+.ma-news-empty{color:#cdb5a8;font:400 13px/1.85 system-ui,sans-serif;padding:18px 0}
+.ma-news-loading{color:#e0c0af;font:400 14px/1.7 system-ui,sans-serif;display:flex;align-items:center;gap:12px}
+.ma-news-loading:before{content:"";display:block;width:12px;height:12px;border-radius:50%;background:#e27a61;box-shadow:0 0 18px #fa665355;animation:maNewsPulse 1.9s ease-in-out infinite}
+.ma-news-status{font:500 11px/1.5 system-ui,sans-serif;color:#ab938c;margin:12px 0 0}
+@keyframes maNewsPulse{50%{opacity:.3;transform:scale(.8)}}
+@media(max-width:900px){.ma-news-frame{grid-template-columns:1fr}.ma-news-feature{border-right:0;border-bottom:1px solid #643d38a3;min-height:340px}.ma-news-list{max-height:350px}.ma-news-intro{align-items:start}}
+@media(max-width:620px){.ma-news-section{padding:46px 0 58px}.ma-news-intro{display:block}.ma-news-see-discord{margin-top:20px}.ma-news-feature{padding:22px 19px;min-height:280px}.ma-news-index-head{padding:17px}.ma-news-entry{padding:15px 17px}.ma-news-list{max-height:320px}.ma-news-feature h3{font-size:26px}}
+@media(prefers-reduced-motion:reduce){.ma-news-loading:before{animation:none}.ma-news-entry,.ma-news-see-discord{transition:none}}
 </style></head><body class="edition-ascension"><div aria-hidden="true" class="reading-progress" id="reading-progress"></div><svg style="display:none" xmlns="http://www.w3.org/2000/svg">
 <symbol id="arrow" viewbox="0 0 24 24"><path d="M4 12h16m-7-7 7 7-7 7"></path></symbol>
 <symbol id="download" viewbox="0 0 24 24"><path d="M12 3v12m-5-5 5 5 5-5M3 17v4h18v-4"></path></symbol>
@@ -188,6 +239,30 @@ body.motion-off.edition-ascension .hero-title .title-red::after { animation: non
 <a class="hero-social hero-social-facebook" href="https://www.facebook.com/profile.php?id=61595907830648" rel="noopener noreferrer" target="_blank"><svg aria-hidden="true" viewbox="0 0 24 24"><use href="#facebook"></use></svg><span>Facebook</span></a>
 </div><div class="hero-social-note">Siga nossos canais oficiais e acompanhe o shard</div></div></div></div><div class="hero-side">✦  UM MUNDO FORJADO EM FOGO E AÇO  ✦</div><a class="hero-scroll" href="#sistemas-destaque">Descubra o mundo<span class="scroll-line"></span></a><button aria-label="Ativar ou desativar partículas" aria-pressed="true" class="embers-toggle" id="embers-toggle" title="Desativar partículas">✧</button></section>
 <div class="ticker"><div class="ticker-inner"><div class="ticker-item"><svg aria-hidden="true" class="" style="fill:none;stroke:currentColor;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round" viewbox="0 0 24 24"><use href="#shield"></use></svg> Sistemas autorais</div><i class="ticker-divider"></i><div class="ticker-item"><svg aria-hidden="true" class="" style="fill:none;stroke:currentColor;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round" viewbox="0 0 24 24"><use href="#swords"></use></svg> Desafios PvM &amp; PvP</div><i class="ticker-divider"></i><div class="ticker-item"><svg aria-hidden="true" class="" style="fill:none;stroke:currentColor;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round" viewbox="0 0 24 24"><use href="#users"></use></svg> Guildas e aventuras</div><i class="ticker-divider"></i><div class="ticker-item"><svg aria-hidden="true" class="" style="fill:none;stroke:currentColor;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round" viewbox="0 0 24 24"><use href="#crown"></use></svg> Jornada de endgame</div></div></div>
+<!-- MYSTERIOUS AGE | NOVIDADES DO DISCORD (10 ULTIMOS ANUNCIOS) -->
+<section class="ma-news-section" id="novidades" aria-labelledby="ma-news-title">
+  <div class="container">
+    <div class="ma-news-intro">
+      <div>
+        <span class="ma-news-kicker">✦ O mural de Britânia</span>
+        <h2 id="ma-news-title">Últimas <em>novidades</em></h2>
+        <p class="ma-news-description">Atualizações, eventos e anúncios diretamente do Discord oficial do Mysterious Age. Selecione uma notícia para conhecer todos os detalhes.</p>
+      </div>
+      <a class="ma-news-see-discord" href="https://discord.gg/ft3Tn4M4KM" target="_blank" rel="noopener noreferrer">✦ Acompanhar no Discord</a>
+    </div>
+    <div class="ma-news-frame">
+      <div class="ma-news-feature" id="ma-news-feature" aria-label="Anúncio selecionado">
+        <div class="ma-news-feature-head"><span class="ma-news-feature-label">✦ Notícias de Britânia</span><span class="ma-news-feature-date" id="ma-news-date">Canal #anuncios</span></div>
+        <div id="ma-news-detail" aria-live="polite"><p class="ma-news-loading">Carregando as últimas novidades...</p></div>
+        <p class="ma-news-status" id="ma-news-status" role="status">Conectando ao mural oficial.</p>
+      </div>
+      <aside class="ma-news-index" aria-label="Arquivo das dez notícias mais recentes">
+        <div class="ma-news-index-head"><span>Arquivo de anúncios</span><span class="ma-news-count" id="ma-news-count">— / 10</span></div>
+        <div class="ma-news-list" role="list" id="ma-news-list" aria-label="Selecionar anúncio"></div>
+      </aside>
+    </div>
+  </div>
+</section>
 <section aria-labelledby="journey-heading" class="chapter-journey section"><div class="container"><div class="center reveal"><span class="chapter-num">A JORNADA DO AVENTUREIRO</span><div class="eyebrow">A lenda começa com uma decisão</div><h2 class="section-title" id="journey-heading">Do primeiro passo à <em>última batalha.</em></h2><p class="section-lead">Um mundo feito para quem deseja descobrir, evoluir e conquistar.</p></div><div class="journey-grid">
 <a class="journey-step reveal" href="jogar.html"><span class="journey-index">I</span><span class="journey-glyph">⚔</span><h3>O chamado</h3><p>Prepare seu launcher e atravesse os portões do Mysterious.</p><span class="journey-next">Começar →</span></a>
 <a class="journey-step reveal" href="sistemas.html"><span class="journey-index">III</span><span class="journey-glyph">♜</span><h3>A conquista</h3><p>Encare masmorras, evolua e fortaleça sua guilda.</p><span class="journey-next">Evoluir →</span></a>
@@ -213,4 +288,224 @@ body.motion-off.edition-ascension .hero-title .title-red::after { animation: non
 </div>
 </section><section class="world-band"><div class="container"><div class="world-band-content reveal"><div class="eyebrow">Quando a noite cair</div><h2 class="section-title">Que sua espada seja a última <em>a cair.</em></h2><p>O verdadeiro desafio começa quando o comum já não é suficiente. Prepare seu equipamento, conheça seus aliados e enfrente o desconhecido.</p><a class="btn btn-large" href="sistemas.html"><svg aria-hidden="true" class="" style="fill:none;stroke:currentColor;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round" viewbox="0 0 24 24"><use href="#shield"></use></svg><span>Explorar sistemas</span></a></div></div></section>
 <section class="community-promo"><div class="container"><div class="copy reveal"><div class="eyebrow">Seu nome pode fazer parte da lenda</div><h2>Faça parte de uma <em>comunidade épica.</em></h2><p>Construa alianças, encontre companheiros e transforme grandes desafios em histórias para contar.</p><a class="btn" href="comunidade.html"><svg aria-hidden="true" class="" style="fill:none;stroke:currentColor;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round" viewbox="0 0 24 24"><use href="#users"></use></svg><span>Conheça a comunidade</span></a></div><img alt="" class="promo-shield" decoding="async" loading="lazy" src="assets/img/logo-small.webp"/></div></section>
-</main><footer class="footer"><div class="container"><div class="footer-grid"><div class="footer-brand"><a href="index.html"><img alt="Mysterious Age Shard" decoding="async" loading="lazy" src="assets/img/logo-small.webp"/></a><p>Um mundo de aventuras, alianças e desafios. Sua próxima lenda começa aqui.</p></div><div class="footer-col"><h4>Explorar</h4><a href="index.html">Início</a><a href="mundo.html">O Mundo</a><a href="sistemas.html">Sistemas</a><a href="guia.html">Guia do aventureiro</a><a href="bestiario.html">Bestiário</a></div><div class="footer-col"><h4>Jornada</h4><a href="jogar.html">Começar a jogar</a><a href="comunidade.html">Comunidade</a><a data-link="launcher" href="#">Baixar launcher</a></div><div class="footer-col"><h4>Informações</h4><a href="regras.html">Regras</a><a class="social-link-direct" href="https://discord.gg/ft3Tn4M4KM" rel="noopener noreferrer" target="_blank">Discord</a><a class="social-link-direct" href="https://www.facebook.com/profile.php?id=61595907830648" rel="noopener noreferrer" target="_blank">Facebook</a><a class="social-link-direct" href="https://www.instagram.com/mysteriousageshard25/" rel="noopener noreferrer" target="_blank">Instagram</a></div></div></div><div class="footer-bottom"><div class="container"><span>© <span data-year="">2026</span> Mysterious Age Shard. Projeto de comunidade.</span><span class="footer-motto">Forjado por jogadores. Movido por histórias.</span></div></div></footer><aside aria-atomic="true" aria-live="polite" class="toast" id="site-toast"></aside><script src="config.js"></script><script defer="" src="assets/site.js"></script><script defer="True" src="assets/legendary.js"></script><a aria-label="Voltar ao início da página" class="back-to-top" href="#conteudo" id="back-to-top">↑</a><script defer="True" src="assets/ascension.js"></script><div class="motion-control" data-motion-control=""><button aria-pressed="false" class="motion-switch" id="motion-switch" title="Alternar efeitos visuais" type="button">✦ Efeitos</button></div></body></html>
+</main><footer class="footer"><div class="container"><div class="footer-grid"><div class="footer-brand"><a href="index.html"><img alt="Mysterious Age Shard" decoding="async" loading="lazy" src="assets/img/logo-small.webp"/></a><p>Um mundo de aventuras, alianças e desafios. Sua próxima lenda começa aqui.</p></div><div class="footer-col"><h4>Explorar</h4><a href="index.html">Início</a><a href="mundo.html">O Mundo</a><a href="sistemas.html">Sistemas</a><a href="guia.html">Guia do aventureiro</a><a href="bestiario.html">Bestiário</a></div><div class="footer-col"><h4>Jornada</h4><a href="jogar.html">Começar a jogar</a><a href="comunidade.html">Comunidade</a><a data-link="launcher" href="#">Baixar launcher</a></div><div class="footer-col"><h4>Informações</h4><a href="regras.html">Regras</a><a class="social-link-direct" href="https://discord.gg/ft3Tn4M4KM" rel="noopener noreferrer" target="_blank">Discord</a><a class="social-link-direct" href="https://www.facebook.com/profile.php?id=61595907830648" rel="noopener noreferrer" target="_blank">Facebook</a><a class="social-link-direct" href="https://www.instagram.com/mysteriousageshard25/" rel="noopener noreferrer" target="_blank">Instagram</a></div></div></div><div class="footer-bottom"><div class="container"><span>© <span data-year="">2026</span> Mysterious Age Shard. Projeto de comunidade.</span><span class="footer-motto">Forjado por jogadores. Movido por histórias.</span></div></div></footer><aside aria-atomic="true" aria-live="polite" class="toast" id="site-toast"></aside><script src="config.js"></script><script defer="" src="assets/site.js"></script><script defer="True" src="assets/legendary.js"></script><a aria-label="Voltar ao início da página" class="back-to-top" href="#conteudo" id="back-to-top">↑</a><script defer="True" src="assets/ascension.js"></script><div class="motion-control" data-motion-control=""><button aria-pressed="false" class="motion-switch" id="motion-switch" title="Alternar efeitos visuais" type="button">✦ Efeitos</button></div><script id="ma-discord-novidades-script">
+/* Mysterious Age — consulta SOMENTE o JSON publico do launcher, nunca tokens Discord/GitHub. */
+(function () {
+  'use strict';
+
+  var FEED_URL = 'https://raw.githubusercontent.com/raffaanogueira/MysteriousAgeUpdates/main/launcher-news.json';
+  var DISCORD_URL = 'https://discord.gg/ft3Tn4M4KM';
+  var MAX_ITEMS = 10;
+  var lista = document.getElementById('ma-news-list');
+  var detalhe = document.getElementById('ma-news-detail');
+  var dataElemento = document.getElementById('ma-news-date');
+  var contador = document.getElementById('ma-news-count');
+  var situacao = document.getElementById('ma-news-status');
+  if (!lista || !detalhe || !dataElemento || !contador || !situacao) return;
+
+  var itensAtuais = [];
+  var selecionado = null;
+  var assinatura = '';
+  var carregando = false;
+  var formatoData = new Intl.DateTimeFormat('pt-BR', {
+    day: '2-digit', month: 'short', year: 'numeric', hour: '2-digit', minute: '2-digit',
+    timeZone: 'America/Sao_Paulo'
+  });
+
+  function limparTexto(texto) {
+    return String(texto || '')
+      .replace(/^\s{0,3}#{1,6}\s+/gm, '')
+      .replace(/\*\*/g, '')
+      .replace(/\[(.*?)\]\((https?:\/\/[^)]+)\)/g, '$1')
+      .replace(/\r/g, '').trim();
+  }
+
+  function resumir(texto, tamanho) {
+    var t = limparTexto(texto).replace(/\s+/g, ' ');
+    return t.length > tamanho ? t.slice(0, tamanho - 1).trimEnd() + '…' : t;
+  }
+
+  function titulo(item) {
+    var linhas = limparTexto(item.Conteudo).split('\n').map(function (x) { return x.trim(); });
+    var primeiro = linhas.filter(Boolean)[0] || 'Comunicado de Britânia';
+    return resumir(primeiro, 90);
+  }
+
+  // Um cabecalho Markdown ja vira o titulo do destaque: nao repetir o texto.
+  function corpoDaNoticia(texto) {
+    var original = String(texto || '').trim();
+    var linhas = original.split(/\r?\n/);
+    var primeiro = linhas.findIndex(function (x) { return !!x.trim(); });
+    if (primeiro >= 0 && (
+      /^\s{0,3}#{1,6}\s+/.test(linhas[primeiro]) ||
+      /^\s*\*\*[^*]+\*\*\s*$/.test(linhas[primeiro])
+    ) && linhas.slice(primeiro + 1).some(function (x) { return !!x.trim(); })) {
+      linhas.splice(primeiro, 1);
+      return linhas.join('\n').trim();
+    }
+    return original;
+  }
+
+  function dataFormatada(utc) {
+    var d = new Date(utc);
+    return isNaN(d.getTime()) ? 'Anúncio oficial' : formatoData.format(d);
+  }
+
+  function elemento(tag, classe, texto) {
+    var el = document.createElement(tag);
+    if (classe) el.className = classe;
+    if (texto !== undefined) el.textContent = texto;
+    return el;
+  }
+
+  // Interpreta negrito simples e titulos Markdown usando APENAS textContent.
+  // Mensagens vindas do Discord nao sao inseridas como HTML executavel.
+  function inserirConteudo(destino, texto) {
+    String(texto || '').split(/\r?\n/).forEach(function (linha) {
+      if (!linha.trim()) {
+        destino.appendChild(elemento('p', 'ma-news-blank', ''));
+        return;
+      }
+      var cabecalho = /^\s{0,3}#{1,6}\s+/.test(linha);
+      var parag = elemento('p', cabecalho ? 'ma-news-line-heading' : '');
+      var textoLinha = linha.replace(/^\s{0,3}#{1,6}\s+/, '');
+      if (/^\s*[-*]\s+/.test(textoLinha)) textoLinha = textoLinha.replace(/^\s*[-*]\s+/, '• ');
+      textoLinha.split(/(\*\*[^*]+\*\*)/g).forEach(function (parte) {
+        if (/^\*\*[^*]+\*\*$/.test(parte)) {
+          parag.appendChild(elemento('strong', '', parte.slice(2, -2)));
+        } else {
+          parag.appendChild(document.createTextNode(parte));
+        }
+      });
+      destino.appendChild(parag);
+    });
+  }
+
+  function selecionar(id) {
+    selecionado = id;
+    var item = itensAtuais.find(function (x) { return x.Id === id; });
+    if (!item) return;
+    detalhe.replaceChildren();
+    dataElemento.textContent = dataFormatada(item.DataUtc);
+
+    var cabecalho = elemento('h3', '', titulo(item));
+    detalhe.appendChild(cabecalho);
+    detalhe.appendChild(elemento('p', 'ma-news-feature-author', 'Publicado por ' + (item.Autor || 'Mysterious Age')));
+
+    var corpo = elemento('div', 'ma-news-feature-article');
+    var completo = corpoDaNoticia(item.Conteudo);
+    var expandido = false;
+    var limite = 540;
+    var longo = completo.length > limite;
+    var resumo = longo ? completo.slice(0, limite).trimEnd() + '…' : completo;
+    inserirConteudo(corpo, resumo);
+    detalhe.appendChild(corpo);
+
+    var acoes = elemento('div', 'ma-news-feature-actions');
+    if (longo) {
+      var expandir = elemento('button', 'ma-news-expand', 'Ler anúncio completo');
+      expandir.type = 'button';
+      expandir.setAttribute('aria-expanded', 'false');
+      expandir.addEventListener('click', function () {
+        expandido = !expandido;
+        corpo.replaceChildren();
+        inserirConteudo(corpo, expandido ? completo : resumo);
+        expandir.textContent = expandido ? 'Mostrar menos' : 'Ler anúncio completo';
+        expandir.setAttribute('aria-expanded', String(expandido));
+        corpo.scrollTop = 0;
+      });
+      acoes.appendChild(expandir);
+    }
+    var discord = elemento('a', '', 'Acompanhar no Discord');
+    discord.href = DISCORD_URL;
+    discord.target = '_blank';
+    discord.rel = 'noopener noreferrer';
+    acoes.appendChild(discord);
+    detalhe.appendChild(acoes);
+
+    Array.from(lista.querySelectorAll('button.ma-news-entry')).forEach(function (btn) {
+      btn.setAttribute('aria-pressed', String(btn.dataset.newsId === id));
+    });
+  }
+
+  function mostrar(items, assinaturaNova) {
+    if (assinaturaNova === assinatura) return;
+    assinatura = assinaturaNova;
+    itensAtuais = items;
+    lista.replaceChildren();
+    contador.textContent = String(items.length).padStart(2, '0') + ' / 10';
+
+    if (!items.length) {
+      dataElemento.textContent = 'Canal #anuncios';
+      detalhe.replaceChildren(elemento('p', 'ma-news-empty', 'Nenhum anúncio foi publicado no mural ainda. Acompanhe as novidades no Discord oficial.'));
+      return;
+    }
+
+    items.forEach(function (item, indice) {
+      var wrapper = elemento('div', '');
+      wrapper.setAttribute('role', 'listitem');
+      var botao = elemento('button', 'ma-news-entry');
+      botao.type = 'button';
+      botao.dataset.newsId = item.Id;
+      botao.setAttribute('aria-pressed', 'false');
+      var meta = elemento('span', 'ma-news-entry-top');
+      meta.appendChild(elemento('span', 'ma-news-entry-number', String(indice + 1).padStart(2, '0')));
+      meta.appendChild(elemento('span', '', dataFormatada(item.DataUtc)));
+      botao.appendChild(meta);
+      botao.appendChild(elemento('span', 'ma-news-entry-title', titulo(item)));
+      botao.appendChild(elemento('span', 'ma-news-entry-preview', resumir(corpoDaNoticia(item.Conteudo), 155)));
+      botao.addEventListener('click', function () { selecionar(item.Id); });
+      wrapper.appendChild(botao);
+      lista.appendChild(wrapper);
+    });
+    if (!items.some(function (x) { return x.Id === selecionado; })) selecionado = items[0].Id;
+    selecionar(selecionado);
+  }
+
+  async function atualizar() {
+    if (carregando) return;
+    carregando = true;
+    var controlador = new AbortController();
+    var limiteTempo = setTimeout(function () { controlador.abort(); }, 12000);
+    try {
+      // A consulta vai ao arquivo publico mantido pelo bot no repositorio do launcher.
+      var url = FEED_URL + '?atualizado=' + Math.floor(Date.now() / 300000);
+      var resposta = await fetch(url, { signal: controlador.signal, mode: 'cors', credentials: 'omit', cache: 'no-store' });
+      if (!resposta.ok) throw new Error('HTTP ' + resposta.status);
+      var feed = await resposta.json();
+      if (!feed || !Array.isArray(feed.Items)) throw new Error('Formato do feed inesperado');
+      var vistos = new Set();
+      var anuncios = feed.Items.filter(function (x) {
+        if (!x || !x.Id || typeof x.Conteudo !== 'string' || !x.Conteudo.trim()) return false;
+        var id = String(x.Id);
+        if (vistos.has(id)) return false;
+        vistos.add(id);
+        return true;
+      }).map(function (x) {
+        return { Id: String(x.Id), Autor: String(x.Autor || 'Mysterious Age'), Conteudo: x.Conteudo, DataUtc: x.DataUtc };
+      }).sort(function (a, b) {
+        return (Date.parse(b.DataUtc) || 0) - (Date.parse(a.DataUtc) || 0);
+      }).slice(0, MAX_ITEMS);
+      var assinaturaNova = JSON.stringify(anuncios);
+      mostrar(anuncios, assinaturaNova);
+      situacao.textContent = 'Notícias sincronizadas com o canal #anuncios do Discord.';
+    } catch (erro) {
+      if (!itensAtuais.length) {
+        detalhe.replaceChildren(elemento('p', 'ma-news-empty', 'As notícias estão temporariamente indisponíveis. Você pode acompanhar os anúncios pelo nosso Discord oficial.'));
+        lista.replaceChildren();
+        dataElemento.textContent = 'Canal #anuncios';
+        contador.textContent = '— / 10';
+      }
+      situacao.textContent = 'Não foi possível atualizar o mural agora. Nova tentativa automática em alguns minutos.';
+      // A indisponibilidade do feed nao impede a navegacao no restante do site.
+    } finally {
+      clearTimeout(limiteTempo);
+      carregando = false;
+    }
+  }
+
+  atualizar();
+  setInterval(function () { if (!document.hidden) atualizar(); }, 300000);
+  document.addEventListener('visibilitychange', function () { if (!document.hidden) atualizar(); });
+})();
+</script></body></html>
